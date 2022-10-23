@@ -1,0 +1,10 @@
+quarkus:
+  http:
+    port: 9002
+  grpc:
+    server:
+      port: 9003
+    clients:
+      gooseClient:
+        port: 9001
+        host: localhost
